@@ -1,9 +1,13 @@
-<html>
+<!DOCTYPE html>
+
+<html lang="pt-br">
     <head>
         <meta charset="UTF-8">
         <title>Site Institucional</title>
     </head>
     <body>
-        <h1>Hello World!<h1>
+        <?php
+        echo "Olá Mundo!";
+        ?>
     </body>
 </html>
