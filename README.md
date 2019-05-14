@@ -1,0 +1,1 @@
+Site institucional simples, desenvolvido utilizando o conceito de MVC.
