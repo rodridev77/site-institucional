@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    background-color: #1e1e1e;
+}
+.topo {
+    width: 100%;
+    max-width: 980px;
+    height: 470px;
+    margin: auto;
+}
+.topo1 {
+    height: 120px;
+}
+.banner {
+    height: 350px;
+    background-color: #514e51;
+}
+.menu {
+    width: 100%;
+    max-width: 980px;
+    height: 50px;
+    margin: auto;
+    background-color: #0062b7;
+}
+.container {
+    width: 100%;
+    max-width: 980px;
+    margin: auto;
+    background-color: #eee;
+    min-height: 400px;
+}
+.rodape {
+    width: 100%;
+    max-width: 980px;
+    margin: auto;
+    height: 100px;
+    background-color: #303030;
+    margin-bottom: 50px;
+}

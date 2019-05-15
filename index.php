@@ -1,13 +1,9 @@
-<!DOCTYPE html>
+<?php
 
-<html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <title>Site Institucional</title>
-    </head>
-    <body>
-        <?php
-        echo "Olá Mundo!";
-        ?>
-    </body>
-</html>
+session_start();
+
+require_once "configs/config.inc.php";
+require_once "configs/my_autoload.php";
+
+$core = new Core();
+$core->run();
