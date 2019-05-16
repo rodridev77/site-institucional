@@ -33,7 +33,7 @@ class Core {
             $currentAction = "index";
         }
 
-        if ((!file_exists('controller/' . $currentController . '.class.php')) || (!method_exists($currentController, $currentAction))) {
+        if ((!file_exists('controllers/' . $currentController . '.class.php')) || (!method_exists($currentController, $currentAction))) {
             $currentController = 'notfoundController';
             $currentAction = 'index';
         }

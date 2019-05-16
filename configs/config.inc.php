@@ -6,13 +6,13 @@ $config = array();
 
 if (ENVIRONMENT == "development") {
     define("BASE_URL", "http://localhost/SiteInstitucional/");
-    $config['dbname'] = "crudoo";
+    $config['dbname'] = "siteinstitucional";
     $config['host'] = "localhost";
     $config['dbuser'] = "root";
     $config['dbpass'] = "123";
 } else {
     define("BASE_URL", "http://meusite.com.br/");
-    $config['dbname'] = "estrutura_mvc";
+    $config['dbname'] = "meubanco";
     $config['host'] = "localhost";
     $config['dbuser'] = "root";
     $config['dbpass'] = "123";
