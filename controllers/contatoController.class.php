@@ -4,7 +4,7 @@ class contatoController extends Controller {
 
     public function index() {
         $dados = array();
-
+        // Preparando estrutura do e-mail
         if (isset($_POST['nome']) && !empty($_POST['nome'])) {
             $nome = addslashes($_POST['nome']);
             $email = addslashes($_POST['email']);
